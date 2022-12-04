@@ -10,5 +10,5 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['@typescript-eslint', 'import'],
-  rules: {},
+  ignorePatterns: ['build/**/*', '.eslintrc.js'],
 };
