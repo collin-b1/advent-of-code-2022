@@ -1,4 +1,3 @@
-import { logMatrix } from '../../util/util';
 import Day from '../day';
 
 export class Day05 extends Day {
